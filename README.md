@@ -1,5 +1,7 @@
 # lean-guard
 
+[![ci](https://github.com/singularityhacker/lean-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/singularityhacker/lean-guard/actions/workflows/ci.yml)
+
 A policy layer for coding agents, written and **proved** in Lean 4.
 
 Every tool call Claude Code makes goes through a Claude Code `PreToolUse`
@@ -93,3 +95,7 @@ policies/demo.json   demo policy
 demo-workspace/      a toy project with a FAKE .env and the hook wired in
 tests/               end-to-end script + axiom audit
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
