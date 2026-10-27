@@ -1,0 +1,12 @@
+{
+  "workspace": "../demo-workspace",
+  "allowedPrograms": ["ls", "cat", "head", "tail", "wc", "grep", "rg", "find", "pwd", "echo",
+                      "git", "diff", "sort", "uniq", "date", "curl"],
+  "allowedHosts": ["code.claude.com", "lean-lang.org", "github.com"],
+  "allowedTools": ["TodoWrite", "Agent", "Task", "ToolSearch", "EnterPlanMode", "ExitPlanMode",
+                   "AskUserQuestion", "WebSearch"],
+  "localTools": ["TodoWrite", "ToolSearch", "EnterPlanMode", "ExitPlanMode", "AskUserQuestion"],
+  "denyPaths": ["../demo-workspace/.claude", "../demo-workspace/.git", "."],
+  "denyPrograms": ["rm", "sudo", "chmod", "chown", "dd"],
+  "budget": 100
+}

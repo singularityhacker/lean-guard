@@ -1,0 +1,10 @@
+name = "lean-guard"
+version = "0.1.0"
+defaultTargets = ["Guard", "lean-guard"]
+
+[[lean_lib]]
+name = "Guard"
+
+[[lean_exe]]
+name = "lean-guard"
+root = "Main"
